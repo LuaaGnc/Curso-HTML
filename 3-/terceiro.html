@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="pt_pt">
+    <head>
+        <title> Listas em HTML </title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h1> Listas </h1>
+        <h2> Listas não ordenadas </h2>
+        <!-- UNORDERED LIST-->
+        <ul>
+            <li> Ventilador </li>
+            <li> Mochila <br> --Tipos de Mochilas:
+                <!-- ORDERED LIST dentro de UNORDERED LIST-->
+                <ol type="I">
+                    <li> Pano </li>
+                    <li> Cabedal </li>
+                </ol>
+            </li>
+            <li> Televisão <br> --Tipos de Televisões:
+                <!-- ORDERED LIST dentro de UNORDERED LIST-->
+                <ol type="I">
+                    <li> LCD </li>
+                    <li> LED</li>
+                </ol>
+            </li>
+        </ul>
+
+        <h2> Listas ordenadas </h2>
+        <p> Se colocarmos: type="A", a lista ordenada irá ser ordenada <br>
+            por ordem alfabética(há outros tipos claro   1 A a I i)</p>
+        <!-- ORDERED LIST type="."  - - Maneira de ser ordenada -->
+        <ol type="A">
+            <li> Ventilador </li>
+            <li> Mochila <br> --Tipos de Mochilas: 
+                <ol type="I">
+                    <li> Pano </li>
+                    <li> Cabedal </li>
+                </ol>
+            </li>
+            <li> Televisão <br> --Tipos de Televisões
+                <!-- ORDERED LIST dentro de ORDERED LIST-->
+                <ol type="I">
+                    <li> LCD </li>
+                    <li> LED</li>
+                </ol>
+            </li>
+        </ol>
+
+        <h2> Listas de Descrição </h2>
+        <p> Esta lista possui sempre item-descrição. <br>
+            Use dt para o item e </p>
+        <!-- DESCRIPTION LIST -->
+        <dl>
+            <dt> Ventilador </dt>
+            <dd> Um ventilador é uma ventoinha e serve para aumentar a dissipação de calor </dd>
+
+            <dt> Mochila </dt>
+            <dd> Uma mochila serve para guardar os nossos pertences <br> --Tipos de Mochilas: 
+                <!-- ORDERED LIST dentro de DESCRIPTION LIST-->
+                <ol type="I">
+                    <li> Pano </li>
+                    <li> Cabedal </li>
+                </ol>
+            </dd>
+
+            <dt> Televisão </dt>
+            <dd> Uma televisão serve também para ver notícias <br> --Tipos de Televisão:
+                <!-- ORDERED LIST dentro de DESCRIPTION LIST-->
+                <ol type="I">
+                    <li> LCD </li>
+                    <li> LED</li>
+                </ol>
+            </dd>
+        </dl>
+    </body>
+</html>
